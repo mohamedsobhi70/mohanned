@@ -26,6 +26,7 @@ module.exports = {
       colors: {
         'slate-200': "#E2E8F0",
         'slate-300': "#CBD5E1",
+        'slate-500': "#64748B",
         'slate-700': "#334155",
         'slate-900': "#0F172A",
       },
