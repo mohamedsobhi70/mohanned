@@ -1,0 +1,16 @@
+{
+  "name": "mohanned",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./assets/styles/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

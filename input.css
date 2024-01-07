@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply font-Amiri;
+  }
+
+  .nav-link {
+    @apply text-slate-700 text-lg leading-normal font-bold hover:text-[#B63F36] transition-colors duration-300 ease-in-out;
+  }
+  .nav-link.active {
+    @apply text-[#B63F36];
+  }
+  .blog-item {
+    @apply py-12 border-b border-slate-200 flex flex-col-reverse lg:flex-row items-center gap-8;
+  }
+  .update-item {
+    @apply py-10 lg:py-12 border-b border-[#E2E8F0] flex flex-col-reverse lg:flex-row lg:items-center gap-3;
+  }
+  .cta-shape {
+    @apply absolute bottom-0 left-1/2 -translate-x-1/2  flex gap-6 items-center skew-x-[-20deg];
+  }
+  .cta-shape > span {
+    @apply w-10 h-4 odd:bg-[#B63F36] even:bg-[#2563EB] ;
+  }
+}
