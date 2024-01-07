@@ -30,6 +30,15 @@ module.exports = {
         'slate-700': "#334155",
         'slate-900': "#0F172A",
       },
+      animation: {
+        'cta': 'cta-move 2s linear infinite',
+      },
+      keyframes: {
+        "cta-move": {
+          '0%': { transform: 'translateX(0px) skew(-20deg)' },
+          '100%': { transform: 'translateX(-129px) skew(-20deg)' },
+        }
+      }
     },
   },
   plugins: [],

@@ -28,7 +28,7 @@
     @apply py-10 lg:py-12 border-b border-[#E2E8F0] flex flex-col-reverse lg:flex-row lg:items-center gap-3;
   }
   .cta-shape {
-    @apply absolute -bottom-1.5 left-1/2 -translate-x-1/2  flex gap-6 items-center skew-x-[-20deg];
+    @apply absolute -bottom-1.5 left-0  flex gap-6 items-center skew-x-[-20deg];
   }
   .cta-shape > span {
     @apply w-10 h-4 odd:bg-[#B63F36] even:bg-[#2563EB];
