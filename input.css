@@ -17,7 +17,7 @@
     @apply text-[#B63F36];
   }
   .blog-item {
-    @apply py-12 border-b border-slate-200 flex flex-col-reverse lg:flex-row items-center gap-8;
+    @apply py-10 lg:py-12 border-b border-slate-200 flex flex-col-reverse lg:flex-row items-center gap-8;
   }
   .update-item {
     @apply py-10 lg:py-12 border-b border-[#E2E8F0] flex flex-col-reverse lg:flex-row lg:items-center gap-3;
@@ -26,6 +26,15 @@
     @apply absolute -bottom-1.5 left-1/2 -translate-x-1/2  flex gap-6 items-center skew-x-[-20deg];
   }
   .cta-shape > span {
-    @apply w-10 h-4 odd:bg-[#B63F36] even:bg-[#2563EB] ;
+    @apply w-10 h-4 odd:bg-[#B63F36] even:bg-[#2563EB];
+  }
+  .blog-item-container {
+    @apply flex flex-col items-center gap-10 lg:gap-12;
+  }
+  .blog-item-container .blog-excerpt {
+    @apply text-slate-700 text-[21px] leading-[180%];
+  }
+  .blog-item-container .blog-title {
+    @apply text-4xl lg:text-5xl font-bold leading-normal font-Ruqaa text-center;
   }
 }
