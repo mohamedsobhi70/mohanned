@@ -2,21 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: calibri;
+    src: url("../fonts/calibri-regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+  }
+}
+
 @layer components {
   html {
     @apply scroll-smooth;
   }
   body {
-    @apply font-Amiri;
+    @apply font-calibri;
   }
-.mobile-menu{
-  @apply  fixed top-8 start-0 w-screen h-screen invisible lg:visible opacity-0 lg:opacity-100 lg:static lg:w-auto lg:h-auto bg-white z-50 p-10 lg:p-0 flex flex-col gap-8 transition-all duration-300 ease-in-out
-}
-.mobile-menu.show{
-  @apply  visible opacity-100 top-0
-}
+  .mobile-menu {
+    @apply fixed top-8 start-0 w-screen h-screen invisible lg:visible opacity-0 lg:opacity-100 lg:static lg:w-auto lg:h-auto bg-white z-50 p-10 lg:p-0 flex flex-col gap-8 transition-all duration-300 ease-in-out;
+  }
+  .mobile-menu.show {
+    @apply visible opacity-100 top-0;
+  }
   .nav-link {
-    @apply text-slate-700 text-lg leading-normal font-bold hover:text-[#B63F36] transition-colors duration-300 ease-in-out;
+    @apply text-slate-700 text-lg leading-normal hover:text-[#B63F36] transition-colors duration-300 ease-in-out;
   }
   .nav-link.active {
     @apply text-[#B63F36];

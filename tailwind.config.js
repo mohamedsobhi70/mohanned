@@ -22,6 +22,7 @@ module.exports = {
         'Amiri': ['Amiri', 'serif'],
         'Ruqaa': ['Aref Ruqaa', 'serif'],
         'Work': ['Work Sans', 'sans-serif'],
+        'calibri': ['calibri', 'sans-serif'],
       },
       colors: {
         'slate-200': "#E2E8F0",
