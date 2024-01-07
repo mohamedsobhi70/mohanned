@@ -724,7 +724,7 @@ body {
   }
 }
 
-.blog-item-container .blog-excerpt {
+.blog-item-container p {
   font-size: 21px;
   line-height: 180%;
   --tw-text-opacity: 1;
@@ -1172,6 +1172,22 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.group:hover .group-hover\:fill-\[\#0A66C2\] {
+  fill: #0A66C2;
+}
+
+.group:hover .group-hover\:fill-\[\#1DA1F2\] {
+  fill: #1DA1F2;
+}
+
+.group:hover .group-hover\:fill-\[\#405DE6\] {
+  fill: #405DE6;
+}
+
+.group:hover .group-hover\:fill-\[\#FFFC00\] {
+  fill: #FFFC00;
 }
 
 @media (min-width: 1024px) {
